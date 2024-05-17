@@ -849,7 +849,7 @@ var routeGeojsonFeature = {
     searchInput: "search-input",
   };
 
-  var map = L.map("map").setView([52.265, 10.5268], 15);
+  var map = L.map("map").setView([52.265, 10.5268], 17);
 
   L.geoJSON(routeGeojsonFeature, {
     style: {
